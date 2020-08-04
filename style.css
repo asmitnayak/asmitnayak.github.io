@@ -10,10 +10,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
 #home {
     background: #ffffff;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     float: left;
     text-align: center;
