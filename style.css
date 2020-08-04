@@ -20,14 +20,32 @@
     align-items: center;
 }
 
+/*#home > .nameBlock{*/
+/*    z-index: 10;*/
+/*    border-radius: 86px;*/
+/*    background: #ffffff;*/
+/*    box-shadow:  34px 34px 48px #9c9c9c,*/
+/*    -34px -34px 48px #ffffff;*/
+/*    height: 400px;*/
+/*    width: 400px;*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*
+    TODO: choose one
+    TODO: choose a font (I use Nunito)
+ */
+
 #home > .nameBlock{
     z-index: 10;
-    border-radius: 86px;
+    height: 300px;
+    width: 300px;
     background: #ffffff;
-    box-shadow:  34px 34px 48px #9c9c9c,
-    -34px -34px 48px #ffffff;
-    height: 400px;
-    width: 400px;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
     display: flex;
     text-align: center;
     justify-content: center;
