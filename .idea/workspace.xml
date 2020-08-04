@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="Changed name's z-index">
+    <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="Added bootstrap">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596516141345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added bootstrap">
+      <created>1596557007959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596557007959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,17 +116,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added name and icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added name and icons" />
+    <MESSAGE value="Added bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="186" y="101" key="SettingsEditor" timestamp="1596515268784">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596515268784" />
-    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1596516173161">
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1596557012818">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1596516173161" />
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1596557012818" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596513787054">
       <screen x="0" y="0" width="1368" height="912" />
     </state>

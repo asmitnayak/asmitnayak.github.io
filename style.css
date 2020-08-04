@@ -19,19 +19,19 @@ section {
     background: #ffffff;
     display: flex;
     float: left;
-    text-align: center;
+    /*text-align: center;*/
     justify-content: center;
     align-items: center;
 }
 
-#home > .nameBlock{
+#home > .row{
     z-index: 10;
     border-radius: 50px;
     background: #00c7fd;
     box-shadow:  20px 20px 60px #00a9d7,
     -20px -20px 60px #00e5ff;
-    height: 300px;
-    width: 300px;
+    height: 70%;
+    width: 70%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -42,21 +42,15 @@ section {
     TODO: choose one
     TODO: choose a font (I use Nunito)
  */
-
-/*#home > .nameBlock{*/
-/*    z-index: 10;*/
-/*    height: 300px;*/
-/*    width: 300px;*/
-/*    background: #ffffff;*/
-/*    border-radius: 20px;*/
-/*    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);*/
-/*    display: flex;*/
-/*    text-align: center;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-
-#home > .nameBlock h1{
+#home > .row > .col-md-6 > .profile-pic{
+    padding-right: 1em;
+}
+#home > .row > .col-md-6 > .profile-pic > #me{
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+#home > .row > .col-md-6 > .nameBlock h1{
     font-size: 40px;
     color: #ffffff;
 }
