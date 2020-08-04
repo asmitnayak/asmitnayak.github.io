@@ -1,15 +1,26 @@
 body {
     background: orange;
 }
+.name-outer{
+    text-align: center;
+}
+.name{
+    position: absolute;
+    top:5%;
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+}
 .icons {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 5;
     overflow: hidden;
 }
-.icons .fa {
+.icons .icm {
     -webkit-font-smoothing: antialiased;
     -webkit-transition: 300ms all;
     transition: 300ms all;
@@ -19,14 +30,14 @@ body {
     animation: 10s floatUp ease-in infinite;
     top: 100%;
 }
-.icons .fa:before {
+.icons .icm:before {
     display: inline-block;
 }
-.icons .fa:nth-child(odd):before {
+.icons .icm:nth-child(odd):before {
     -webkit-animation: 40s slowRotate linear;
     animation: 40s slowRotate linear;
 }
-.icons .fa:nth-child(even):before {
+.icons .icm:nth-child(even):before {
     -webkit-animation: 30s slowRotate linear;
     animation: 30s slowRotate linear;
     animation-direction: reverse;

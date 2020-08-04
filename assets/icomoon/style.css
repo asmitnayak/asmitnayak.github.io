@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pmqjk8');
-  src:  url('fonts/icomoon.eot?pmqjk8#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pmqjk8') format('truetype'),
-    url('fonts/icomoon.woff?pmqjk8') format('woff'),
-    url('fonts/icomoon.svg?pmqjk8#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?lw80hd');
+  src:  url('fonts/icomoon.eot?lw80hd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lw80hd') format('truetype'),
+    url('fonts/icomoon.woff?lw80hd') format('woff'),
+    url('fonts/icomoon.svg?lw80hd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,7 +25,58 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-adobedreamweaver:before {
+.icon-adobephotoshop:before {
+  content: "\e900";
+  color: #00c8ff;
+}
+.icon-adobexd:before {
   content: "\e901";
-  color: #35fa00;
+  color: #ff2bc2;
+}
+.icon-android:before {
+  content: "\e902";
+  color: #3ddc84;
+}
+.icon-arduino:before {
+  content: "\e903";
+  color: #00979d;
+}
+.icon-css3:before {
+  content: "\e904";
+  color: #1572b6;
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-gitlab:before {
+  content: "\e906";
+  color: #fca121;
+}
+.icon-java:before {
+  content: "\e907";
+  color: #007396;
+}
+.icon-javascript:before {
+  content: "\e908";
+  color: #f7df1e;
+}
+.icon-kotlin:before {
+  content: "\e909";
+  color: #0095d5;
+}
+.icon-linux:before {
+  content: "\e90a";
+  color: #fcc624;
+}
+.icon-mysql:before {
+  content: "\e90b";
+  color: #4479a1;
+}
+.icon-php:before {
+  content: "\e90c";
+  color: #777bb4;
+}
+.icon-python:before {
+  content: "\e90d";
+  color: #3776ab;
 }
