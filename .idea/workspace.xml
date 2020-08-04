@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="">
+    <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="Changed name's z-index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -56,18 +56,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.0.27" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -86,8 +80,6 @@
       <workItem from="1596477363788" duration="7245000" />
       <workItem from="1596513828100" duration="1238000" />
       <workItem from="1596515106491" duration="1249000" />
-      <workItem from="1596533236741" duration="2704000" />
-      <workItem from="1596536654069" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="Added name and icons">
       <created>1596516141345</created>
@@ -96,35 +88,7 @@
       <option name="project" value="LOCAL" />
       <updated>1596516141345</updated>
     </task>
-    <task id="LOCAL-00002" summary="modified homepage a little">
-      <created>1596534409934</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1596534409934</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added another option for nameBlock check in css">
-      <created>1596534662219</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1596534662219</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added another option for nameBlock check in css">
-      <created>1596535668858</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1596535668858</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added font Montserrat">
-      <created>1596536482201</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1596536482201</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,29 +108,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added name and icons" />
-    <MESSAGE value="modified homepage a little" />
-    <MESSAGE value="added another option for nameBlock check in css" />
-    <MESSAGE value="added font Montserrat" />
-    <option name="LAST_COMMIT_MESSAGE" value="added font Montserrat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added name and icons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1596536482060">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1596536482060" />
-    <state x="228" y="116" key="SettingsEditor" timestamp="1596533250600">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="186" y="101" key="SettingsEditor" timestamp="1596515268784">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596515268784" />
-    <state x="228" y="116" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596533250600" />
-    <state x="340" y="218" key="Vcs.Push.Dialog.v2" timestamp="1596536485397">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1596516173161">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1596516173161" />
-    <state x="340" y="218" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596536485397" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596513787054">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1368.912@0.0.1368.912" timestamp="1596513787054" />
+    <state x="502" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596553912989">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="502" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.912@0.0.1368.912" timestamp="1596553912989" />
   </component>
 </project>
