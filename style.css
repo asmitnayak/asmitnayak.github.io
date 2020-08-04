@@ -1,17 +1,43 @@
-body {
-    background: orange;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
-.name-outer{
+
+#home {
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    float: left;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.name{
-    position: absolute;
-    top:5%;
-    width: 100%;
-    height: 100%;
-    font-size: xx-large;
-    z-index: 6;
+
+#home > .nameBlock{
+    z-index: 10;
+    border-radius: 86px;
+    background: #ffffff;
+    box-shadow:  34px 34px 48px #9c9c9c,
+    -34px -34px 48px #ffffff;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
+#home > .nameBlock h1{
+    font-size: 40px;
+}
+
 .icons {
     position: absolute;
     top: 0;

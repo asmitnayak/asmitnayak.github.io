@@ -22,6 +22,7 @@
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="Added name and icons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +56,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +80,7 @@
       <workItem from="1596477363788" duration="7245000" />
       <workItem from="1596513828100" duration="1238000" />
       <workItem from="1596515106491" duration="1249000" />
+      <workItem from="1596533236741" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="Added name and icons">
       <created>1596516141345</created>
@@ -110,10 +112,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added name and icons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="186" y="101" key="SettingsEditor" timestamp="1596515268784">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="228" y="116" key="SettingsEditor" timestamp="1596533250600">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596515268784" />
+    <state x="228" y="116" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596533250600" />
     <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1596516173161">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
