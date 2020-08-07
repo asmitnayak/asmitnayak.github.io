@@ -19,7 +19,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 90;
+    z-index: 50;
 }
 
 section {
@@ -28,53 +28,61 @@ section {
 }
 
 #home {
-    background: #ffffff;
+    background: linear-gradient(to bottom right, #88f7fe 0%, #66a6fe 100%);;
     display: flex;
     float: left;
     /*text-align: center;*/
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 }
 
-#home > .row{
+#home > .intro_sec > .row{
     z-index: 10;
-    border-radius: 50px;
-    background: #00c7fd;
-    box-shadow:  20px 20px 60px #00a9d7,
-    -20px -20px 60px #00e5ff;
-    height: 70%;
-    width: 70%;
+    /*border-radius: 50px;*/
+    /*background: #00c7fd;*/
+    /*box-shadow:  20px 20px 60px #00a9d7,*/
+    /*-20px -20px 60px #00e5ff;*/
+    /*height: 70%;*/
+    /*width: 70%;*/
+    padding-left: 10%;
     display: flex;
-    text-align: center;
-    justify-content: center;    /* horizontal */
-    align-items: center;        /* vertical   */
+    /*text-align: center;*/
+    justify-content: start;    /* horizontal */
+    /*align-items: center;        !* vertical   *!*/
 }
 
 /*
     TODO: choose one
     TODO: choose a font (I use Nunito)
  */
-#home > .row > .col-md-6 > .profile-pic{
-    padding-right: 1em;
+/*#home > .row > .col-md-6 > .profile-pic{*/
+/*    padding-right: 1em;*/
+/*}*/
+/*#home > .row > .col-md-6 > .profile-pic > #me{*/
+/*    border-radius: 8px;*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+.intro_sec {
+    max-width: 80%;
+    padding-left: 5%;
 }
-#home > .row > .col-md-6 > .profile-pic > #me{
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
+#intro_name h1{
+    font-size: 60px;
+    color: #000000;
 }
-.nameBlock h1{
-    font-size: 40px;
-    color: #ffffff;
-}
-.intro{
+#intro_name{
     align-items: start;
     justify-content: start;
+    margin-top: -15%;
+    margin-bottom: 20px;
 }
 .nameBlock{
     text-align: left;
 }
 
-.intro > .text{
+#intro_name > .text{
     text-align: left;
     align-items: start;
     justify-content: start;
@@ -198,4 +206,19 @@ section {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg);
     }
+}
+
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+    z-index: 51;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
 }

@@ -20,16 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="Added hamburger menu without any operability">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_down.js" beforeDir="false" afterPath="$PROJECT_DIR$/script_down.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,8 +63,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -96,6 +98,7 @@
       <workItem from="1596477363788" duration="7245000" />
       <workItem from="1596513828100" duration="1238000" />
       <workItem from="1596515106491" duration="1249000" />
+      <workItem from="1596789088131" duration="6204000" />
     </task>
     <task id="LOCAL-00001" summary="Added name and icons">
       <created>1596516141345</created>
@@ -228,10 +231,11 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1348" height="296" key="GridCell.Tab.3.right/0.0.1368.912@0.0.1368.912" timestamp="1596573639975" />
-    <state x="186" y="101" key="SettingsEditor" timestamp="1596573133845">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="209" y="96" key="SettingsEditor" timestamp="1596790724539">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596573133845" />
+    <state x="209" y="96" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596790724539" />
     <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1596566948395">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -251,13 +255,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/script_down.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/script_down.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
