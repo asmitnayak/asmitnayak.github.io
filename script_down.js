@@ -10,12 +10,14 @@ function myFunction(x) {
         document.getElementsByClassName("bar1")[0].style.backgroundColor = "white";
         document.getElementsByClassName("bar2")[0].style.backgroundColor = "white";
         document.getElementsByClassName("bar3")[0].style.backgroundColor = "white";
+        document.getElementById("down_arrow").style.zIndex = "49";
     } else {
         document.getElementById("mySidenav").style.width = "0px";
         document.getElementById("overlay").style.backgroundColor= "transparent";
         document.getElementsByClassName("bar1")[0].style.backgroundColor = "black";
         document.getElementsByClassName("bar2")[0].style.backgroundColor = "black";
         document.getElementsByClassName("bar3")[0].style.backgroundColor = "black";
+        document.getElementById("down_arrow").style.zIndex = "51";
     }
     times += 1;
 }

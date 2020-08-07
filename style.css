@@ -10,8 +10,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 .overlay {
-    /*opacity: 0;*/
     background-color: transparent;
     transition: background-color .5s;
     position: fixed;
@@ -30,44 +32,50 @@ section {
 #home {
     background: linear-gradient(to bottom right, #88f7fe 0%, #66a6fe 100%);;
     display: flex;
-    float: left;
+    float: none;
+    max-width: fit-content;
     /*text-align: center;*/
     /*justify-content: center;*/
     align-items: center;
 }
-
-#home > .intro_sec > .row{
+#home > .intro_sec{
     z-index: 10;
+}
+#home > .intro_sec > .row{
     /*border-radius: 50px;*/
     /*background: #00c7fd;*/
     /*box-shadow:  20px 20px 60px #00a9d7,*/
     /*-20px -20px 60px #00e5ff;*/
     /*height: 70%;*/
     /*width: 70%;*/
-    padding-left: 10%;
-    display: flex;
+    /*padding-left: 10%;*/
+    /*display: flex;*/
     /*text-align: center;*/
     justify-content: start;    /* horizontal */
     /*align-items: center;        !* vertical   *!*/
 }
-
-/*
-    TODO: choose one
-    TODO: choose a font (I use Nunito)
- */
-/*#home > .row > .col-md-6 > .profile-pic{*/
-/*    padding-right: 1em;*/
-/*}*/
-/*#home > .row > .col-md-6 > .profile-pic > #me{*/
-/*    border-radius: 8px;*/
-/*    max-width: 100%;*/
-/*    height: auto;*/
-/*}*/
-
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .intro_sec {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        /*background-color: rgba(255, 255, 255, 0.5);*/
+    }
+    .warning {
+        display: none;
+    }
+}
 .intro_sec {
+    overflow: hidden;
     max-width: 80%;
     padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: -10%;
+    margin-left: 5%;
+    margin-right: 30%;
 }
+
+
 #intro_name h1{
     font-size: 60px;
     color: #000000;
@@ -75,8 +83,7 @@ section {
 #intro_name{
     align-items: start;
     justify-content: start;
-    margin-top: -15%;
-    margin-bottom: 20px;
+    padding-bottom: 0.5%;
 }
 .nameBlock{
     text-align: left;
@@ -208,7 +215,7 @@ section {
     }
 }
 
-.ct-btn-scroll {
+.down_arrow {
     width: 49px;
     height: 49px;
     position: absolute;
