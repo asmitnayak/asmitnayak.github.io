@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/s3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_down.js" beforeDir="false" afterPath="$PROJECT_DIR$/script_down.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -104,7 +105,8 @@
       <workItem from="1596513828100" duration="1238000" />
       <workItem from="1596515106491" duration="1249000" />
       <workItem from="1596789088131" duration="6548000" />
-      <workItem from="1596835021870" duration="4580000" />
+      <workItem from="1596835021870" duration="7353000" />
+      <workItem from="1597120474694" duration="7137000" />
     </task>
     <task id="LOCAL-00001" summary="Added name and icons">
       <created>1596516141345</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596795473556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Blue effect and working scroll down added">
+      <created>1596840189915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596840189915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,17 +183,18 @@
     <MESSAGE value="Added images" />
     <MESSAGE value="Added hamburger menu without any operability" />
     <MESSAGE value="Changes made to UI.&#10;&#10;TODO: Added anchor to #section2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes made to UI.&#10;&#10;TODO: Added anchor to #section2" />
+    <MESSAGE value="Added Blue effect and working scroll down added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Blue effect and working scroll down added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="209" key="#xdebugger.XInspectDialog" timestamp="1596573734333">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="470" y="209" key="#xdebugger.XInspectDialog/0.0.1368.912@0.0.1368.912" timestamp="1596573734333" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1596795470642">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1596840186354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596795470642" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596840186354" />
     <state x="606" y="346" key="Github.Dialog.Accounts.Choose" timestamp="1596795484548">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -253,16 +263,16 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1348" height="296" key="GridCell.Tab.3.right/0.0.1368.912@0.0.1368.912" timestamp="1596573639975" />
-    <state x="209" y="96" key="SettingsEditor" timestamp="1596790724539">
+    <state x="209" y="96" key="SettingsEditor" timestamp="1597128070732">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596573133845" />
-    <state x="209" y="96" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596790724539" />
-    <state x="311" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596795474227">
+    <state x="209" y="96" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597128070732" />
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596840190334">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1596566948395" />
-    <state x="311" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596795474227" />
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596840190334" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596513787054">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -271,6 +281,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="502" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.912@0.0.1368.912" timestamp="1596553912989" />
+    <state x="42" y="200" key="run.anything.popup" timestamp="1597127422539">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="42" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1597127422539" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
