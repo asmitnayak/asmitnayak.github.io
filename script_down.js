@@ -5,9 +5,9 @@ function myFunction() {
     let x = document.getElementsByClassName("ham-bar")[0];
     x.classList.toggle("change");
     if (times % 2 === 1) {   // entry
+        document.getElementById("overlay").style.zIndex = "50";
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.4)";
-        // let bars = document.getElementsByClassName("ham-bar")[0];
         document.getElementsByClassName("bar1")[0].style.backgroundColor = "white";
         document.getElementsByClassName("bar2")[0].style.backgroundColor = "white";
         document.getElementsByClassName("bar3")[0].style.backgroundColor = "white";
@@ -15,7 +15,8 @@ function myFunction() {
         document.getElementsByClassName("carousel_buttons")[0].style.zIndex = "49";
         document.getElementsByClassName("carousel_buttons")[1].style.zIndex = "49";
         document.getElementsByClassName("carousel_buttons")[2].style.zIndex = "49";
-    } else {
+    } else {    // exiting
+        document.getElementById("overlay").style.zIndex = "3";
         document.getElementById("mySidenav").style.width = "0px";
         document.getElementById("overlay").style.backgroundColor = "transparent";
         document.getElementsByClassName("bar1")[0].style.backgroundColor = "black";
