@@ -13,8 +13,14 @@
 html{
     scroll-behavior: smooth;
     font-size: 1.3vh;
-
 }
+
+@media screen and (max-width: 500px){
+    html{
+        font-size: 1vh;
+    }
+}
+
 .overlay {
     background-color: transparent;
     transition: background-color .5s;
@@ -74,6 +80,11 @@ section {
     margin-right: 35%;
 }
 
+@media screen and (max-width:768px){
+    .intro_sec{
+        margin-right: 20%;
+    }
+}
 
 #intro_name h1{
     font-size: 6rem;
@@ -294,6 +305,13 @@ section {
     padding: 2% 5%;
     background-color: rgba(0,0,0, .5);
 }
+
+@media screen and (max-width: 768px) {
+    .proj_info{
+        width: 75%;
+    }
+}
+
 .proj_name{
     align-items: start;
     justify-content: start;
@@ -304,5 +322,5 @@ section {
     font-size: 5rem;
 }
 .proj_desc > p{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
