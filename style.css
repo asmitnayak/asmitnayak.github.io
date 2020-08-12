@@ -38,7 +38,9 @@ section {
 }
 
 #home {
-    background: linear-gradient(to bottom right, #88f7fe 0%, #66a6fe 100%);;
+    background-image: url('assets/images/howrah_brg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     float: none;
     max-width: fit-content;
