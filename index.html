@@ -17,7 +17,7 @@
 
 <body>
 <div>
-    <div class="ham-bar" onclick="myFunction(this)">
+    <div class="ham-bar" onclick="myFunction()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -25,10 +25,10 @@
     <!--    <div class="topnav">-->
     <!-- Navigation links (hidden by default) -->
     <div id="mySidenav" class="sidenav">
-        <a href="#home">About</a>
-        <a href="#projects">Project</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact Me</a>
+        <a href="#home" onclick="myFunction()">About</a>
+        <a href="#projects" onclick="myFunction()">Project</a>
+        <a href="#skills" onclick="myFunction()">Skills</a>
+        <a href="#contact" onclick="myFunction()">Contact Me</a>
     </div>
 
     <!--    </div>-->
@@ -80,7 +80,7 @@
         <div class="proj">
             <div id="project_slide" class="carousel slide" data-ride="carousel" data-pause="false" style="height: 100%;
             width:100%;">
-                <ol class="carousel-indicators" style="z-index:52">
+                <ol class="carousel-indicators carousel_buttons" style="z-index:52">
                     <li data-target="#project_slide" data-slide-to="0" class="active"></li>
                     <li data-target="#project_slide" data-slide-to="1"></li>
                     <li data-target="#project_slide" data-slide-to="2"></li>
@@ -144,11 +144,11 @@
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#project_slide" role="button" data-slide="prev" style="z-index:52">
+                <a class="carousel-control-prev carousel_buttons" data-slide="prev" href="#project_slide" role="button">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#project_slide" role="button" data-slide="next" style="z-index:52">
+                <a class="carousel-control-next carousel_buttons" data-slide="next" href="#project_slide" role="button">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>

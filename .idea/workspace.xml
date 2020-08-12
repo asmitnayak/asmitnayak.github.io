@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_down.js" beforeDir="false" afterPath="$PROJECT_DIR$/script_down.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,7 @@
       <workItem from="1597167205890" duration="2170000" />
       <workItem from="1597173670792" duration="1628000" />
       <workItem from="1597185304124" duration="3228000" />
-      <workItem from="1597198673434" duration="8563000" />
+      <workItem from="1597198673434" duration="9638000" />
     </task>
     <task id="LOCAL-00001" summary="Added name and icons">
       <created>1596516141345</created>
@@ -171,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597214937299</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Made small changes to UI responsiveness">
+      <created>1597215621893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597215621893</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Made small changes to UI responsiveness">
+      <created>1597215749708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597215749708</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +216,8 @@
     <MESSAGE value="Added Blue effect and working scroll down added" />
     <MESSAGE value="Added slide show and some UI/CSS tweaks" />
     <MESSAGE value="Made changes to UI and added responsiveness. Changed the initial background." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to UI and added responsiveness. Changed the initial background." />
+    <MESSAGE value="Made small changes to UI responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made small changes to UI responsiveness" />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597132651632">
@@ -211,10 +228,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="470" y="209" key="#xdebugger.XInspectDialog/0.0.1368.912@0.0.1368.912" timestamp="1596573734333" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1597214936541">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1597215749170">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1597214936541" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1597215749170" />
     <state x="606" y="346" key="Github.Dialog.Accounts.Choose" timestamp="1596795484548">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -304,11 +321,11 @@
     </state>
     <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1596573133845" />
     <state x="209" y="96" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597128070732" />
-    <state x="311" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597215011483">
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597215753705">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1596566948395" />
-    <state x="311" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1597215011483" />
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1597215753705" />
     <state x="93" y="93" width="1181" height="725" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596513787054">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
