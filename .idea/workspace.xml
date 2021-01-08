@@ -21,13 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cv.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2012-03-01-talk-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2012-03-01-talk-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2013-03-01-tutorial-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2013-03-01-tutorial-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2014-02-01-talk-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2014-02-01-talk-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2014-03-01-talk-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2014-03-01-talk-3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610134860328</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated CV">
+      <created>1610137549861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610137549861</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +291,8 @@
     <MESSAGE value="Updated the homepage" />
     <MESSAGE value="Deleted deprecated files" />
     <MESSAGE value="Added profile picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added profile picture" />
+    <MESSAGE value="Updated CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CV" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

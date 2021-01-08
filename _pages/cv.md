@@ -19,7 +19,7 @@ Work experience
 
 * June 2020 - Present: Undergraduate Research Assistant
   * UW-Madison, Dept. of ECE
-  * Research Lab: <a href="wiscprivacy.com">WI-PI</a>
+  * Research Lab: <a href="www.wiscprivacy.com">WI-PI</a>
   * Duties included: Tagging issues
   * Supervisor: Prof. Kassem Fawaz
 
