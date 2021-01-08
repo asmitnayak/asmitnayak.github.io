@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e79b01c-9724-4925-88fe-931acd07a21d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/asmit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/asmit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
@@ -44,8 +41,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Asmit Nayak &lt;asmit.nayak@gmail.com&gt;" />
+        <option value="Asmit &lt;asmit.nayak@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="8b226c7d-c466-4821-b17a-ca88fca01515" />
@@ -81,6 +84,10 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asmit Nayak\IdeaProjects\asmitnayak.github.io\images" />
+      <recent name="C:\Users\Asmit Nayak\IdeaProjects\asmitnayak.github.io\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asmit\WebstormProjects\portfolio\assets" />
     </key>
@@ -206,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597265155433</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated the homepage">
+      <created>1610134453615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610134453615</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Deleted deprecated files">
+      <created>1610134647551</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610134647551</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +263,9 @@
     <MESSAGE value="Made small changes to UI responsiveness" />
     <MESSAGE value="Minor JS tweaks" />
     <MESSAGE value="Background image changed to cover" />
-    <option name="LAST_COMMIT_MESSAGE" value="Background image changed to cover" />
+    <MESSAGE value="Updated the homepage" />
+    <MESSAGE value="Deleted deprecated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted deprecated files" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
