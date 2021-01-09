@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if include.type == "grid" and teaser %}
+            <div class="archive__item-teaser">
+                <img src=
+                     {% if teaser contains "://" %}
+                     "{{ teaser }}"
+                {% else %}
+                    "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+                {% endif %}
+                alt="">
+            </div>
+        {% endif %}
+
+        <h2>{{ post.title }}</h2>
+        <p>Written in: {{ post.languages }} </p>
+        <p class="archive__item-excerpt" itemprop="description">{{ post.description | markdownify }}</p>
+        {% if post.githubrepo %}
+            <p>Github Repo: <a href="{{ post.repo }}">{{ post.reponame }}</a></p>
+        {% endif %}
+    </article>
+</div>
