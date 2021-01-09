@@ -43,6 +43,6 @@ Skills
 
 Projects
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.projects %}
     {% include archive-projects-cv.html %}
   {% endfor %}</ul>
