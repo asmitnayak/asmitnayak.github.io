@@ -232,7 +232,7 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
+      layout: projects
       author_profile: true
       share: true
       comment: true
