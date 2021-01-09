@@ -23,7 +23,13 @@ Work experience
 
 * May - Aug 2019: DCS Team Member
   * UW-Madison Housing
-  
+
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Skills
 ======
 * Programming Languages
@@ -35,27 +41,6 @@ Skills
 * Miscellaneous:
   * Project Management Software | Microsoft Office (with Macros) | Git and Github | Arduino | Raspberry Pi | Unix
 
-
-Publications
+Projects
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-[comment]: <> (Service and leadership)
-
-[comment]: <> (======)
-
-[comment]: <> (* Currently signed in to 43 different slack teams)
+*Upcoming
