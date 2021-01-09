@@ -16,17 +16,13 @@ Education
 
 Work experience
 ======
-[test] (https://wiscprivacy.com/)
 * June 2020 - Present: Undergraduate Research Assistant
-  * UW-Madison, Dept. of ECE
+  * UW-Madison, Dept. of Electrical and Computer Engineering
   * Research Lab: <a href="https://wiscprivacy.com/">WI-PI</a>
-  * Duties included: Tagging issues
-  * Supervisor: Prof. Kassem Fawaz
+  * Lab Leader: <a href="https://kassemfawaz.com/">Prof. Kassem Fawaz</a>
 
 * May - Aug 2019: DCS Team Member
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * UW-Madison Housing
   
 Skills
 ======
