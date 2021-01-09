@@ -66,6 +66,14 @@
   }
 }
 
+.archive__item-excerpt-proj {
+  margin-top: 0;
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
