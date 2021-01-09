@@ -11,12 +11,12 @@
                 alt="">
             </div>
         {% endif %}
-        <h2 class="archive__item-title" itemprop="headline">
-            {% if post.link %}
-                <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-            {% else %}
-                <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-            {% endif %}
-        </h2>
+
+        <h2>{{ post.title }}</h2>
+        <p>Written in: {{ post.languages }} </p>
+        <p class="archive__item-excerpt" itemprop="description">{{ post.description | markdownify }}</p>
+        {% if post.githubrepo %}
+            <p>Github Repo: <a href="{{ post.repo }}">{{ post.reponame }}</a></p>
+        {% endif %}
     </article>
 </div>
