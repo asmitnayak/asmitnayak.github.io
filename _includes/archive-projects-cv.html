@@ -16,8 +16,9 @@
         <p><b>
             {% if post.githubrepo %} <a href="{{ post.repo }}" rel="permalink">{{ post.title }}</a>
             {% else %}{{ post.title }}
-            {% endif %} : </b>
-            <i class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</i>
+            {% endif %} :
+        </b><i class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</i>
+
         </p>
         </li>
     </article>
