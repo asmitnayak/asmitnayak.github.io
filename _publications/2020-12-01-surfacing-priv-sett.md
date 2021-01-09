@@ -1,7 +1,7 @@
 ---
 title: "Surfacing Privacy Settings using Semantic Matching"
 collection: publications
-permalink: /publication/2020-12-01-surfacing-priv-sett
+permalink: /publications/2020-12-01-surfacing-priv-sett
 excerpt: 'Online services utilize privacy settings to provide users with control over their data. However, these privacy settings are often hard to locate, causing the user to rely on provider-chosen default values. In this work, we train privacy settings centric encoders and leverage them to create an interface that allows users to search for privacy settings using free-form queries.'
 date: 2020-11-01
 venue: 'Proceedings of the Second Workshop on Privacy in NLP'
