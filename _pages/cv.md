@@ -26,12 +26,15 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Java | JavaFX | Python | C/C++ | MATLAB | Kotlin | TypeScript | MySQL | PHP | JS | CSS | HTML
+* Circuit/Microprocessor Design:
+  * Altium Designer | ModelSim-Altera | LTSpice | Verilog | ARM x86 (Cortex M3 processor)
+* Graphic Design Software:
+  * Adobe Photoshop | Autodesk Maya | Unity | Autodesk Inventor | Adobe XD
+* Miscellaneous:
+  * Project Management Software | Microsoft Office (with Macros) | Git and Github | Arduino | Raspberry Pi | Unix
+
 
 Publications
 ======
