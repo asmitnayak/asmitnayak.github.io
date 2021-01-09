@@ -13,12 +13,12 @@
             </div>
         {% endif %}
 
-        <h3>
+        <p><b>
             {% if post.githubrepo %} <a href="{{ post.repo }}" rel="permalink">{{ post.title }}</a>
             {% else %}{{ post.title }}
-            {% endif %}
-        </h3>
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+            {% endif %} </b>
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        </p>
         </li>
     </article>
 </div>
