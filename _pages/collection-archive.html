@@ -17,8 +17,10 @@ author_profile: true
     {% endif %}
   {% endunless %}
   {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
+    {% unless collection.output == false or collection.label == "projects" %}
       {% include archive-single.html %}
+    {% elsif collection.label == "projects" %}
+      {% include archive-projects.html %}
     {% endunless %}
   {% endfor %}
 {% endfor %}
