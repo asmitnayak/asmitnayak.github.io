@@ -32,7 +32,7 @@
         {{ post.description | markdownify }}
         {% if post.githubrepo %}
         <br>
-        Github Repo: <a href="{{ post.repo }}">{{ post.reponame }}</a>
+        Github Repo: <a href="{{ post.githubrepo }}">{{ post.reponame }}</a>
         {% endif %}
         </p>
     </article>

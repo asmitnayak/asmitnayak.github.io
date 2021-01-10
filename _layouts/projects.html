@@ -31,7 +31,7 @@ layout: default
         <p>Written in: {{ post.languages }} </p>
         <p class="archive__item-excerpt" itemprop="description">{{ post.description | markdownify }}</p>
         {% if post.githubrepo %}
-            <p>Github Repo: <a href="{{ post.repo }}">{{ post.reponame }}</a></p>
+            <p>Github Repo: <a href="{{ post.githubrepo }}">{{ post.reponame }}</a></p>
         {% endif %}
     </article>
 </div>
