@@ -33,7 +33,7 @@ Skills
 
 Projects
 ======
-  <ul>{% for post in site.projects %}
+  <ul>{% for post in site.projects reversed%}
     {% include archive-projects-cv.html %}
   {% endfor %}</ul>
 

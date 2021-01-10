@@ -14,7 +14,7 @@
         {% endif %}
 
         <p><b>
-            {% if post.githubrepo %} <a href="{{ post.repo }}" rel="permalink">{{ post.title }}</a>
+            {% if post.githubrepo %} <a href="{{ post.githubrepo }}" rel="permalink">{{ post.title }}</a>
             {% else %}{{ post.title }}
             {% endif %} :
         </b><i class="archive__item-excerpt-proj" itemprop="description">{{ post.excerpt }}</i>
