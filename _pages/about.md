@@ -8,5 +8,6 @@ redirect_from:
 - /about.html
 ---
 
-dsLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-aliqua. Arcu dictum varius duis at consectetur lorem donec massa. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Vitae tortor condimentum lacinia quis vel. Nunc consequat interdum varius sit amet mattis. Fames ac turpis egestas sed tempus. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Ultrices tincidunt arcu non sodales neque sodales ut. Id faucibus nisl tincidunt eget nullam non nisi est. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed.
+I am an Undergraduate Senior at University of Wisconsin-Madison, majoring in Computer Engineering and Computer 
+Science. I have a keen interest in learning about various Machine Learning algorithms and often spend my time 
+implementing them in my own applications. 
