@@ -34,6 +34,10 @@
         <br>
         Github Repo: <a href="{{ post.githubrepo }}">{{ post.reponame }}</a>
         {% endif %}
+        {% if post.database %}
+        <br>
+        Database used: <a href="{{ post.dblink }}">{{ post.database }}</a>
+        {% endif %}
         </p>
     </article>
 </div>
